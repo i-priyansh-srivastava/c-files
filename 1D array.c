@@ -109,6 +109,53 @@ void main()
 }*/
 
 
+/*//SUM OF EVEN AND PRODUCT OF ODD NUMBERS
+#include<stdio.h>
+void main()
+{
+    int n,sum=0,product=1;
+    printf("enter the size");
+    scanf("%d",&n);
+    int a[n];
+    printf("enter the elements");
+    for(i=0;i<n;i++)
+    scanf("%d",&a[i]);
+
+    for(i=0;i<n;i++)
+    {
+        if(a[i]%2==0)
+        {
+            sum=sum+a[i];
+        }
+        else if(a[i]%!=0)
+        product=product*a[i];
+    }
+
+    printf("%d\n",sum);
+    printf("%d",product);
+
+}*/
+
+
+/*//PRINT ELEMENTS AT ODD POSITIONS
+#include<stdio.h>
+void main()
+{
+    int n,i;
+    printf("enter the size ");
+    scanf("%d",&n);
+    int a[n];
+    printf("enter the elements ");
+    for(i=0;i<n;i++)
+    scanf("%d",&a[i]);
+
+    printf("the elememts at odd positions are"); 
+    for(i=0;i<n;i=i+2)
+    {
+        printf("%d",a[i]);
+    }
+}*/
+
 
 /*//COPY ELEMENTS OF 1 ARRAY INTO ANOTHER
 #include<stdio.h>
@@ -306,18 +353,4 @@ void main()
         break;
     }
 }*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
